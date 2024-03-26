@@ -286,10 +286,12 @@ p {
   width: 100%;
   padding-top: 1rem;
 }
-.about .opening-content .info a {
+.about .opening-content h2 {
+}
+.about .opening-content a {
   font-weight: 500;
   display: inline-block;
-  color: #01aef0;
+  color: var(--primary);
   text-decoration: underline;
 }
 
@@ -474,7 +476,7 @@ p {
   font-weight: 500;
 }
 .footer .right-footer a {
-  font-size: 1.2rem;
+  font-size: 2rem;
   color: #fff;
   font-weight: 300;
   margin-right: 1rem;
